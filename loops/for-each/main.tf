@@ -56,7 +56,7 @@ resource "null_resource" "vegetables" {
   for_each = toset(var.vegetables)
 
   provisioner "local-exec" {
-    command = "echo Fruit Name - ${each.key}"
+    command = "echo vegetable Name - ${each.key}"
   }
 
 }
