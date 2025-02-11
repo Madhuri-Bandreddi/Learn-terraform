@@ -14,4 +14,5 @@ data "aws_ami" "centos" {
   name_regex  = "Centos-8-DevOps-Practice"
 }
 
-variable "sg_id" {}
+variable "sg_id"{}
+
